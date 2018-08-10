@@ -9,31 +9,31 @@
 @{
 
     # Script module or binary module file associated with this manifest.
-    RootModule           = 'PSCodeCovIo.psm1'
+    RootModule        = 'PSCodeCovIo.psm1'
 
     # Version number of this module.
-    ModuleVersion        = '1.0.0'
+    ModuleVersion     = '1.0.1'
 
     # Supported PSEditions
-    CompatiblePSEditions = @('Desktop', 'Core')
+    # CompatiblePSEditions = @('Desktop', 'Core')
 
     # ID used to uniquely identify this module
-    GUID                 = '07cabd5b-7314-49fa-a460-98d7b1de1244'
+    GUID              = '07cabd5b-7314-49fa-a460-98d7b1de1244'
 
     # Author of this module
-    Author               = 'Felix Becker'
+    Author            = 'Felix Becker'
 
     # Company or vendor of this module
     # CompanyName = 'Unknown'
 
     # Copyright statement for this module
-    Copyright            = "(c) 2015 Microsoft Corporation, modifications (c) 2018 Felix Becker"
+    Copyright         = "(c) 2015 Microsoft Corporation, modifications (c) 2018 Felix Becker"
 
     # Description of the functionality provided by this module
-    Description          = 'Helper to use in CI to convert test coverage data emitted by https://github.com/pester/Pester to JSON that can be uploaded to https://codecov.io.
+    Description       = 'Helper to use in CI to convert test coverage data emitted by https://github.com/pester/Pester to JSON that can be uploaded to https://codecov.io.
 '
     # Minimum version of the PowerShell engine required by this module
-    PowerShellVersion    = '5.1'
+    # PowerShellVersion    = '5.1'
 
     # Name of the PowerShell host required by this module
     # PowerShellHostName = ''
@@ -69,16 +69,16 @@
     # NestedModules = @()
 
     # Functions to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no functions to export.
-    FunctionsToExport    = @('Export-CodeCovIoJson')
+    FunctionsToExport = @('Export-CodeCovIoJson')
 
     # Cmdlets to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no cmdlets to export.
-    CmdletsToExport      = @()
+    CmdletsToExport   = @()
 
     # Variables to export from this module
-    VariablesToExport    = @()
+    VariablesToExport = @()
 
     # Aliases to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no aliases to export.
-    AliasesToExport      = @()
+    AliasesToExport   = @()
 
     # DSC resources to export from this module
     # DscResourcesToExport = @()
@@ -90,7 +90,7 @@
     # FileList = @()
 
     # Private data to pass to the module specified in RootModule/ModuleToProcess. This may also contain a PSData hashtable with additional module metadata used by PowerShell.
-    PrivateData          = @{
+    PrivateData       = @{
 
         PSData = @{
 
