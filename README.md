@@ -1,4 +1,4 @@
-# PSCodeCovIo
+# PSCodeCovIo <img src="https://raw.githubusercontent.com/codecov/media/master/logos/logo.svg?sanitize=true" height="90" align="left">
 
 [![powershellgallery](https://img.shields.io/powershellgallery/v/PSCodeCovIo.svg)](https://www.powershellgallery.com/packages/PSCodeCovIo)
 [![downloads](https://img.shields.io/powershellgallery/dt/PSCodeCovIo.svg?label=downloads)](https://www.powershellgallery.com/packages/PSCodeCovIo)
